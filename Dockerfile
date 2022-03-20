@@ -1,5 +1,4 @@
-FROM    s2i-httpd:1.0
-#FROM  s2i-react:5.0
+FROM   s2i-httpd:1.0 
 #
 RUN      echo '**estoy en extends de s2i-httpd *** ' && pwd && ls -lt
 #WORKDIR  ./node-app
